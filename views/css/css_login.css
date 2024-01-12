@@ -1,0 +1,125 @@
+
+
+body{
+    background-image: url(images/image2.jpg);
+    background-size: cover;
+    padding: 0%;
+    margin: 0%;
+    
+}
+.title{
+    color: white;
+    font-size: 60px;
+    margin-left: 30px;
+    font-family: 'Gloria Hallelujah', cursive;
+    cursor: pointer;
+    user-select: none;
+}
+span{
+    color: #14213d;
+}
+.login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100vb;
+    align-items: center;
+}
+.container_login{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: #fca211e1;
+    border-radius: 10px;
+}
+.div_image{
+    background-image: url(images/NewYork.jpeg);
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_login{
+    width: 50%;
+ 
+}
+#title_login{
+    font-size: 30px;
+    color: #14213d;
+    font-family: 'Gloria Hallelujah', cursive;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    margin-bottom: 80px;
+}
+.div_info{
+    display: flex;
+}
+
+.input_info{
+    width: 90%;
+    height: 35px;
+    margin: 10px;
+    margin-top: 30px;
+    color: #14213d;
+    font-family: 'Gloria Hallelujah', cursive;
+    border-radius: 4px;
+    font-size: 20px;
+    border: none;
+    user-select: none;
+
+}
+.input_info:focus{
+    outline:none;
+}
+.div_btn{
+    text-align: center;
+}
+.btn_login{
+    width: 50%;
+    height: 40px;
+    font-size: 25px;
+    background-color: #fca311;
+    border: 2px solid #14213d;
+    color: #14213d;
+    font-family: 'Gloria Hallelujah', cursive;
+    border-radius: 5px ;
+    margin-top: 50px;
+    user-select: none;
+}
+.btn_login:hover{
+    color: #fca311;
+    background-color: #14213d;
+    
+}
+#forget_pass{
+    text-align: center;
+    color: #14213d;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.login_link{
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+}
+@media only screen and (width < 1000px) {
+    .title{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (width < 600px) {
+    .div_image{
+        display: none;
+    }
+    .div_login{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+}

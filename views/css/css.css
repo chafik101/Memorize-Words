@@ -1,0 +1,292 @@
+body{
+    background-image: url(images/image2.jpg);
+    background-size: cover;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.container_profile{
+    margin: 10px;
+    width: 90%;
+    padding: 20px;
+    background-color: #14213d;
+    border-radius: 10px;
+}
+.div_image_profile{
+    width: 50%;
+}
+.image_profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fca311;
+}
+.name_profile{
+    color: #ffffff ;
+    font-size: 30px;
+    user-select: none;
+}
+table ,th, td{
+    border: none;
+    border-collapse: collapse;
+    color: white;
+    font-size: 25px;
+}
+th,td{
+    color: #ffffff;
+    text-align: center;
+}
+table{
+    margin-bottom: 40px;
+    
+}
+.bar{
+    width: 90%;
+    height: 30px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    display: flex;
+}
+.bar_total{
+    width: 40%;
+    height: 30px;
+    background-color: #1FCC25;
+    color: white;
+    font-size: 25px;
+    border-start-start-radius: 6px;
+    border-end-start-radius: 6px;
+}
+
+
+
+.container_basic{
+    width: 60%;
+    }
+
+
+.container_show_worlds{
+    width: 40%;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background:#fca311 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    font-size: 25px;
+    color: white;
+    margin-right: 60px;
+    font-family: 'Gloria Hallelujah', cursive;
+    cursor: pointer;
+}
+li:hover{
+    color: #14213d;
+}
+.title{
+    color: white;
+    font-size: 40px;
+    margin-left: 30px;
+    font-family: 'Gloria Hallelujah', cursive;
+    cursor: pointer;
+    user-select: none;
+}
+span{
+    color: #14213d;
+}
+
+
+.container_basic{
+    margin: 10px 0px 0px 30px;
+    margin-bottom: 200px;
+}
+
+.card_ratings, .container_basic{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+    gap:15px;
+    
+}
+.card_ratings{
+    height: 220px;
+    background-color: #e5e5e586;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px black;
+}
+.card_parte{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+    gap:15px;
+    background-color: #e5e5e586;
+    margin: 10px;
+    align-items: center;
+    border-radius: 6px;
+    padding: 10px;
+    align-items:center;
+}
+.container_parts{
+    width: 60%;
+    background:#14213d;
+    background-size: cover;
+}
+.card_parte, .container_parts{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap:15px;
+}
+.title_card{
+    color: #14213d;
+    font-size: 25px;
+    padding-top: 10px;
+    font-family: 'Gloria Hallelujah', cursive;
+    cursor: pointer;
+    user-select: none;
+}
+.percent_card{
+    width: 70px;
+    height: 70px;
+    background-color: #fca311;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
+}
+.card_ratings:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.63);
+}
+.percent_num, .counter_num{
+    font-size: 25px;
+    color: #14213d;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    position: relative;
+    bottom: 15px;
+    user-select: none;
+}
+.percent_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn_card, .btn_parts{
+    width: 50%;
+    height: 35px;
+    color: #14213d;
+    background-color: #fca311;
+    border: none;
+    border-radius: 4px;
+    font-size: 25px;
+    margin-left: 40px;
+    font-family: 'Gloria Hallelujah', cursive;
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn_card:hover, .btn_parts:hover{
+    color: #fca311;
+    background-color: #14213d;
+}
+.title_ratings{
+    font-size: 40px;
+    color: #14213d;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.596);
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+}
+
+.container_show_words{
+    width: 30%;
+    margin-left: 40px;
+}
+.show_words{
+    position: fixed;
+    top: 100px;
+    width: 30%;
+    height: 530px;
+    background-color: #14213d;
+    border-radius:6px;
+}
+
+.img_show_words{
+    width: 50%;
+    border-radius: 6px;
+}
+.title_show_words{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Gloria Hallelujah', cursive;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+}
+.show_words_title_card{
+    color: #fca311;
+    font-size: 25px;
+    padding-top: 10px;
+    font-family: 'Gloria Hallelujah', cursive;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+}
+
+
+@media only screen and (width < 600px) {
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .container_show_words{
+        display: none;
+    }
+    header{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+    }
+    .title{
+        font-size: 15px;
+    }
+    li{
+        font-size: 10px;
+        margin: 5px;
+    }
+    li:last-child{
+        margin-right: 10px;
+    }
+    .container_basic{
+        width: 100%;
+        margin-left: 0%;
+        margin: 5px;
+    }
+    .title_ratings{
+        width: 100%;
+        font-size: 20px;
+    }
+    .container_profile{
+        width: 90%;
+        height: 500px;
+    }
+}
