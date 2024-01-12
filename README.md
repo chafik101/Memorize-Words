@@ -5,5 +5,6 @@ built with (html-css-php-javascript-sql)
 
 ## idea of  appliction depends on  three stages :
    --> the first stage is writing the word 
+   <img src="https://github.com/chafik101/Memorize-Words/blob/main/images/stage1.png">
   --> the second stage is to choose the correct word 
   --> the fourth stage is to complete the word 
